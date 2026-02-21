@@ -4,7 +4,7 @@ function scrollToSection(id) {
   });
 }
 
-/* ===== Efeito de Digitação ===== */
+// Digitação
 const text = "Desenvolvedor Front-End";
 let index = 0;
 
@@ -18,7 +18,7 @@ function typeEffect() {
 
 window.onload = typeEffect;
 
-/* ===== Reveal Scroll ===== */
+// Reveal ao rolar
 function revealOnScroll() {
   const reveals = document.querySelectorAll(".reveal");
 
@@ -34,7 +34,7 @@ function revealOnScroll() {
 
 window.addEventListener("scroll", revealOnScroll);
 
-/* ===== Partículas ===== */
+// Partículas
 const canvas = document.getElementById("particles");
 const ctx = canvas.getContext("2d");
 
